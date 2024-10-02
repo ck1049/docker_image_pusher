@@ -1,4 +1,1 @@
-kibana:8.13.4
-elasticsearch:8.13.4
-postgres
-apache/rocketmq:5.3.0
+redis:7.4.0

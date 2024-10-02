@@ -155,3 +155,7 @@ jobs:
             echo "=============================================================================="     
             
         done < images.txt
+    # 调用 docker 客户端服务器的 python api，更新镜像候选词词库
+    - name: UPDATE CLIENT COMPLEtE FILE
+      run: |
+        curl ${UPDATE_IMAGES_KEYWORDS_URL}
